@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Macando", sans-serif;
+    background-color: grey;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 2.5em;
+}
+
+span{
+    color:#ff0157;
+}
+
+header .navigation{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+
+header .navigation li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 400;
+}
